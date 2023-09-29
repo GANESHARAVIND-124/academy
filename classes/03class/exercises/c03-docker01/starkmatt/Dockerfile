@@ -1,4 +1,4 @@
-FROM alpine:3.9.5
+FROM alpine:3.18.4
 WORKDIR /usr
 RUN echo "Installing Alpine & Terraform"
 RUN apk add zip && \
