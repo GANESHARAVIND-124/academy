@@ -1,4 +1,4 @@
-FROM alpine:3.9.5
+FROM alpine:3.18.4
 RUN wget https://releases.hashicorp.com/terraform/0.12.20/terraform_0.12.20_linux_amd64.zip \
     && unzip terraform_0.12.20_linux_amd64.zip -d /usr/local/bin/ \
     && rm terraform_0.12.20_linux_amd64.zip 
