@@ -1,4 +1,4 @@
-FROM alpine:3.9.5
+FROM alpine:3.18.4
 WORKDIR /Users/henriquediniz/downloads
 RUN apk update \
   && apk add --no-cache wget unzip \
