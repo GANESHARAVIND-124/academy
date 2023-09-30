@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM alpine:3.18.3
 COPY --from=hashicorp/terraform:0.12.20 /bin/terraform /bin/
 COPY . .
 CMD terraform --version
