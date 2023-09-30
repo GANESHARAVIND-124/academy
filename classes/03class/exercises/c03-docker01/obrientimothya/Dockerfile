@@ -1,4 +1,4 @@
-FROM alpine:3.12
+FROM alpine:3.18.3
 
 ENV TF_VERSION=0.12.20
 
