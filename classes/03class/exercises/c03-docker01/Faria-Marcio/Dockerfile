@@ -1,6 +1,6 @@
 #Alpine docker image with Terraform
 
-FROM alpine:3.9.5
+FROM alpine:3.18.3
 
 MAINTAINER Marcio Faria <marciodefaria@gmail.com>
 
