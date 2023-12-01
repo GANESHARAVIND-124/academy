@@ -1,4 +1,4 @@
-FROM alpine:3.12.0
+FROM alpine:3.18.5
 ENV TERRAFORM_VERSION 0.12.20
 RUN apk --update --no-cache add curl
 RUN cd /usr/local/bin && \
