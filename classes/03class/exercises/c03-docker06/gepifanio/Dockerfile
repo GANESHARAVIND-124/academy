@@ -1,2 +1,2 @@
-FROM alpine:3.12.0
+FROM alpine:3.18.6
 ENTRYPOINT ["echo", "Hello"]
