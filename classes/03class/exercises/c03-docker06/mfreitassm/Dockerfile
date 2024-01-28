@@ -1,3 +1,3 @@
-FROM alpine:3.7
+FROM alpine:3.18.6
 
 ENTRYPOINT [ "echo", "Hello" ]
