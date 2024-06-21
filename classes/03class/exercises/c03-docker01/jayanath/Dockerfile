@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3
 RUN apk --update --no-cache add curl
 ENV TER_VER=0.12.20
 RUN cd /usr/local/bin && \
