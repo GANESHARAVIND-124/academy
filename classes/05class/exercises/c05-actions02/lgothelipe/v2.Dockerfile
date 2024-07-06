@@ -1,2 +1,2 @@
-FROM httpd:2.4.41
+FROM httpd:2.4.60
 RUN echo "This is my GH actions exercise updated" > /usr/local/apache2/htdocs/index.html
