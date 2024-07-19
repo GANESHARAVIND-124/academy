@@ -1,2 +1,2 @@
-FROM httpd:2.4.41-alpine
+FROM httpd:2.4.61-alpine
 ENTRYPOINT [ "echo","Hello" ]
