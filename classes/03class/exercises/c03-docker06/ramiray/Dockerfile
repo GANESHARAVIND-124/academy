@@ -1,4 +1,4 @@
-FROM alpine:3.12.0 AS base
+FROM alpine:3.19.3 AS base
 
 FROM base as src1
 ENTRYPOINT ["echo", "Hello"]
