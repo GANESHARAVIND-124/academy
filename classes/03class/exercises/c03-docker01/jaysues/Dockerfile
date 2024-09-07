@@ -1,4 +1,4 @@
-FROM alpine:3.15.0
+FROM alpine:3.19.4
 RUN apk update \
   && apk add --no-cache wget unzip \
   && wget https://releases.hashicorp.com/terraform/0.12.20/terraform_0.12.20_linux_amd64.zip --output-file terraform.zip \
