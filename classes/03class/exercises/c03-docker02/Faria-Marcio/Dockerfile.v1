@@ -1,6 +1,6 @@
 #Alpine docker image: exercise02:v1
 
-FROM httpd:2.4.41-alpine
+FROM httpd:2.4.63-alpine
 MAINTAINER Marcio Faria <marciodefaria@gmail.com>
 COPY index.html /usr/local/apache2/htdocs/
 EXPOSE 80
