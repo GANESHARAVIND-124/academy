@@ -1,4 +1,4 @@
-FROM alpine:3.12.0
+FROM alpine:3.19.6
 ENV TERRAFORM_VER 0.12.20
 RUN apk update && apk add curl \
     wget \
