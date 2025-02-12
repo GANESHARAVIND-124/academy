@@ -1,2 +1,2 @@
-FROM alpine:3.7
+FROM alpine:3.19.6
 ENTRYPOINT ["printf", "Hello %s \n"]
